@@ -124,3 +124,72 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.card-img-top {
+    width: 70%;
+    margin: 20px auto 10px auto;
+    border-radius: 10px;
+}
+
+.card-text {
+    font-size: 0.95em;
+    color: #444;
+    line-height: 1.5;
+}
+
+.card {
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.banner h1 {
+    color: rgb(97, 64, 128);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card.team-card {
+    background-color: #eae2f3;
+    border-color: #b6a3df
+}
+
+.contact-card {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 30px;
+    background-color: #f6f2fb;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+  
+.contact-details {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+  
+.contact-details p {
+    margin-bottom: 20px;
+}
+
+.contact-card img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-card img:hover {
+    transform: scale(1.03);
+}
+
+  
