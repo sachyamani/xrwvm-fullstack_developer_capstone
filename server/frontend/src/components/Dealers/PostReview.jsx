@@ -71,7 +71,8 @@ const PostReview = () => {
     if(retobj.status === 200) {
       let dealerobjs = Array.from(retobj.dealer)
       if(dealerobjs.length > 0)
-        setDealer(dealerobjs[0])
+        // setDealer(dealerobjs[0])
+        setDealer(retobj.dealer)
     }
   }
 
@@ -104,7 +105,7 @@ const PostReview = () => {
       <select name="cars" id="cars" onChange={(e) => setModel(e.target.value)}>
       <option value="" selected disabled hidden>Choose Car Make and Model</option>
       {carmodels.map(carmodel => (
-          <option value={carmodel.CarMake+" "+carmodel.CarModel}>{carmodel.CarMake} {carmodel.CarModel}</option>
+          <option value={carmodel.CarMake+" "+carmodel.carModel}>{carmodel.CarMake} {carmodel.carModel}</option>
       ))}
       </select>        
       </div >
